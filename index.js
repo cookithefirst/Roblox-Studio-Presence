@@ -1,8 +1,9 @@
 import { activeWindow, openWindows } from 'get-windows';
 import { Client } from "@xhayper/discord-rpc";
+import config from "./config.json" assert { type: "json" };
 
 const client = new Client({
-    clientId: "1231703162918801429"
+    clientId: config.clientid
 });
 
 var OldActivity = {}
