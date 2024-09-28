@@ -16,16 +16,20 @@ I will continuously update **RSP** whenever I have some cool ideas for it in sto
 ### 0️⃣ Install Node.js
 If you haven't already, install Node.js with [🔗 this link](https://nodejs.org/).
 ### 1️⃣ Install RobloxStudioPresence.zip
-To install it, just click on **<> Code** then **📁 Download Zip**!
+To install it, just download the [**latest release**](https://github.com/cookithefirst/Roblox-Studio-Presence/releases/tag/Release)!<br>
+<sup>🔗 Alternatively, click on **<> Code** then **📁 Download Zip** in the repository's page.</sup>
 ### 2️⃣ Extract The ZIP File
-This can be done by **right clicking** on the file, and then **Extract All..**
+This can be done by **right clicking** on the file, and then **Extract All**.
 ### 3️⃣ Installation.bat
 Just open **Installation.bat**, and wait until all dependencies are installed.
 Then, exit the window.
-### 4️⃣ Start.bat
+### 4️⃣ config.json
+Head over to the **config.json** file, inside, you'll find a "clientid" key, with an empty value.
+Supply this value with the application id of a new application you'll make called 'Roblox Studio'.<br>
+<sup>🔗 Create an application by going to [Discord's Developer Portal](https://discord.com/developers/applications) and clicking on "New Application". Add the name and then you'll find Application ID at the General Information tab.</sup>
+### 5️⃣ Start.bat
 Finally, open **Start.bat** and wait until **RSP** starts running.
 You can exit the window now, since **RSP** now works in the background.
-
 ## 📝 Update Log
 ### v1 - 🌍 Public Beta Release
 > Released **RSP** to the world!
